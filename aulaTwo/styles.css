@@ -1,0 +1,106 @@
+* {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: inherit;
+    font-family: "Poppins", sans-serif;
+    font-style: inherit;
+    font-size: 100%;
+}
+span::first-letter{
+    text-transform: uppercase;
+}
+tr td:last-child span:last-child{
+    right: 10px !important;
+}
+tr td:hover{
+    color:#87CEFA;
+    font-size: 20px ;
+}
+
+header {
+    width: 100%;
+    display: table-column;
+    padding-top: 100%;
+}
+
+.estilo {
+    height: 150px; 
+    width: 150px; 
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.botaocomprar {
+    height: 40px;
+    color: white;
+    background-color: #1c2850;
+    width: auto;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.botaocomprar:hover {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.alinhamentobotoes {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.mouse:hover {
+    cursor:pointer;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 2px solid #6F5ADC; 
+    gap: 20px;
+}
+
+h1:hover {
+    cursor: pointer;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-transform: uppercase;
+}
+
+.mouse2:hover {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.voltar {
+    color: white;
+    background-color: #24264f;
+    width: auto;
+    border-radius: 45px;
+    font-size: 20px;
+}
+
+.voltar:hover {
+    cursor: pointer;
+}
